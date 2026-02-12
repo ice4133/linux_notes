@@ -1,0 +1,33 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "build/Debug/linux_freertos_demo_103.elf",
+            "name": "Debug with OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "gdbPath": "/home/ice/gnu_toolchain/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gdb",
+            "armToolchainPath": "/home/ice/gnu_toolchain/gcc-arm-none-eabi-10.3-2021.10/bin",
+            "configFiles": [
+                "interface/stlink.cfg",
+                "target/stm32f1x.cfg"
+            ],
+            "searchDir": [
+                "/usr/share/openocd/scripts"
+            ],
+            "runToEntryPoint": "main",
+            "showDevDebugOutput": "none",
+            "svdPath": "STM32F103.svd",
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+            } 
+
+        }
+    ]
+}

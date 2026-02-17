@@ -78,3 +78,12 @@ f5 或者按左下角的齿轮(生成所选择目标)
 
 ctrl + f5 或者按左下角的三角形(运行)
 ```
+
+# 从零创建一个工程
+
+默认配置完成
+
+1. 创建一个文件夹
+2. 用vscode打开，并且创建一个CMakeLists.txt和一个main.cpp
+3. 打开命令面板 CMake: Delete Cache and Reconfigure
+4. 生成 + 运行

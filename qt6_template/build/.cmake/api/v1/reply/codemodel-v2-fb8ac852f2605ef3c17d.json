@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "qt6_template",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "qt6_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt6_template-Debug-54b2359245475a8d9a15.json",
+					"name" : "qt6_template",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt6_template_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt6_template_autogen-Debug-9b3bd796896bbabfce45.json",
+					"name" : "qt6_template_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt6_template_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt6_template_autogen_timestamp_deps-Debug-d5326b252cbcbe70b414.json",
+					"name" : "qt6_template_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build",
+		"source" : "/home/ice/Core/mx_linux_notes/linux_notes/qt6_template"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

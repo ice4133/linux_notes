@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build/qt6_template_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/qt6_template.dir/qt6_template_autogen/mocs_compilation.cpp.o -c /home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build/qt6_template_autogen/mocs_compilation.cpp",
+  "file": "/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build/qt6_template_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build",
+  "command": "/usr/bin/g++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/build/qt6_template_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -fPIC -o CMakeFiles/qt6_template.dir/main.cpp.o -c /home/ice/Core/mx_linux_notes/linux_notes/qt6_template/main.cpp",
+  "file": "/home/ice/Core/mx_linux_notes/linux_notes/qt6_template/main.cpp"
+}
+]

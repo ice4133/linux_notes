@@ -16,7 +16,7 @@ sudo apt install tlp tlp-rdw
 
 + 软件修改
 ```
-sudo nano /etc/tlp.conf
+sudo vim /etc/tlp.conf
 //找到 START_CHARGE_THRESH_BAT0 和 STOP_CHARGE_THRESH_BAT0
 //去掉前面的 # 注释符号，修改为 85 和 90
 //按 Ctrl+O 保存，Ctrl+X 退出
@@ -33,3 +33,6 @@ sudo tlp start
 ```
 sudo tlp-stat -b
 ```
+
+
+不要长期充电，目前不想解决了

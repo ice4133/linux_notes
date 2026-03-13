@@ -21,3 +21,10 @@
 
 选取照片
 https://wallhaven.cc/
+
+
+# 修改图标文件
+
+~/.local/share/applications/
+
+进入，并且删除想要删除的图标文件即可

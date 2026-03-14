@@ -28,3 +28,13 @@ https://wallhaven.cc/
 ~/.local/share/applications/
 
 进入，并且删除想要删除的图标文件即可
+
+
+# 更换动态壁纸
+xrandr | grep '*'
+
+2560x1600     59.99*+
+
+
+mpvpaper -o "no-audio --loop-playlist" "*" path/to/your/video.mp4
+

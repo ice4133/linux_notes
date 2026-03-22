@@ -13,7 +13,11 @@ download .flatpakref 文件
 
 进入instructions，按照指导下载
 
+flatpak install  io.github.jeffshee.Hidamari.flatpakref
+
 下载完成后，去动态壁纸网站中寻找壁纸，下载，放入视频的Hidamari中
+
+flatpak run io.github.jeffshee.Hidamari --reset
 
 # 下载blur my shell
 

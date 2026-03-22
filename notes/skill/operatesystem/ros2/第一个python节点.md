@@ -15,18 +15,18 @@ cd ~/ros2_ws/src
 
 
 # 创建一个自己的 ROS 包
-ros2 pkg create --build-type ament_python my_test_pkg
+ros2 pkg create your_package_name --build-type ament_python --dependencies rclpy --node-name your_node_name
 
-# my_test_pkg是自己的包名，可以根据自己的需要修改，--build-type ament_python表示这个包是一个Python包。
+# your_package_name是自己的包名，可以根据自己的需要修改，--build-type ament_python表示这个包是一个Python包。
 
 # ros2 pkg create命令会在当前目录下创建一个新的ROS包，包含一些基本的文件和目录结构。你可以在这个包中添加自己的Python代码来实现ROS节点的功能。
 ```
 
 # 第二步
 
-打开vscode,打开my_test_pkg文件夹，
+打开vscode,打开your_package_name文件夹，
 
-在my_test_pkg文件夹下创建一个新的python文件，命名为my_test_node.py，并添加以下代码：
+在your_package_name文件夹下创建一个新的python文件，命名为your_node_name.py，并添加以下代码：
 
 ```python
 import rclpy

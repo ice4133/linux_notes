@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package>
+    <man>
+        <name>
+        路飞    
+        </name>
+        <age>
+        20
+        </age>
+
+        <name age="20">索隆</name>
+        <!-- 这就是在name标签上添加了age属性 ，这个属性也是任意的，可以是任何名字，并且可以有任意的值
+        -->
+    </man>
+
+
+
+</package>

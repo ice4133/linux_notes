@@ -8,4 +8,8 @@ souce /opt/ros/humble/setup.bash
 python3 --version
 
 # 看下他们的版本
+# 还有就是launch中的电机固定版本的python版本，改成3.10
 ```
+
+
+还有就是好像就只有python3.8的宇数sdk

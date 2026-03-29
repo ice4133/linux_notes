@@ -13,3 +13,20 @@ python3 --version
 
 
 还有就是好像就只有python3.8的宇数sdk
+
+
+好像ubuntu默认的是python2啊
+
+
+
+方法：
+了解到
+
+
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.8 -y
+
+
+实际上跑的时候，如果你是通过 python3.8 motor_init.py 运行，它确实在跑 3.8；但如果是通过 ros2 run 运行，除非你修改了大量的底层配置，否则它极大概率还是在尝试调用 3.10。

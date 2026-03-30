@@ -30,3 +30,9 @@ sudo apt install python3.8 -y
 
 
 实际上跑的时候，如果你是通过 python3.8 motor_init.py 运行，它确实在跑 3.8；但如果是通过 ros2 run 运行，除非你修改了大量的底层配置，否则它极大概率还是在尝试调用 3.10。
+
+
+import sys
+import time
+这个路径也不是在python库
+而是在.vscode路径下面

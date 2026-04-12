@@ -12,6 +12,9 @@ cd ros2_ws/src
 # 必须在src目录下创建包，否则会报错
 ros2 pkg create your_package_name --build-type ament_cmake --dependencies rclcpp --node-name your_node_name
 
+
+
+
 ```
 与此同时，配置环境
 ctrl + shift + p

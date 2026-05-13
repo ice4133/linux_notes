@@ -1,7 +1,7 @@
 # 脑图模式
 下载Markdown Preview Enhanced插件
 在开头和结尾加```
-
+```
 mermaid
 mindmap
   root((数据结构))
@@ -14,7 +14,7 @@ mindmap
       逻辑结构
       物理结构 (存储结构)
       数据的运算
-
+```
 
 
 

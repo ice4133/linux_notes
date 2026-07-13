@@ -1,0 +1,15 @@
+# 基础配置
+
+在windows下载wsl插件
+
+然后打开vscode 进入wls2环境
+
+
+sudo apt install -y build-essential gdb git cmake clangd
+
+下载clangd插件、cmake tools插件，即可
+
+
+# vscode 配置codex
+下载codex插件，然后傻瓜登录
+

@@ -2,11 +2,28 @@
 
 网站：https://haowallpaper.com/ 
 
-
+https://openwallpaper.org/
 # 下载Hidamari
 
 https://flathub.org/en/apps/io.github.jeffshee.Hidamari
 
+
+```bash
+
+sudo apt update
+sudo apt install flatpak
+
+flatpak remote-add --if-not-exists flathub \
+https://dl.flathub.org/repo/flathub.flatpakrepo
+
+flatpak install flathub io.github.jeffshee.Hidamari
+
+
+# 启动
+flatpak run io.github.jeffshee.Hidamari
+
+pkill -f Hidamari
+```
 下载
 
 download .flatpakref 文件

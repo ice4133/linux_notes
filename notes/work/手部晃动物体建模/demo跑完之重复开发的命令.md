@@ -89,12 +89,12 @@ SMPL_MOTION_FILE=/mnt/nfs/humanoid/sonic/smpl_filtered \
 EXPECTED_ENCODER_INPUT_DIM=1751 \
 SONIC_OBS_CONFIG=/root/xuxiangling/sonic/gear_sonic_deploy/policy/release/observation_config_sonic_release.yaml \
 ./sonic_launch/heft_wpc/export_new_wpc_onnx.sh \
-/root/xuxiangling/sonic/training_checkpoints/sonic_wpc_train_7gpu_env4096_30000/model_step_020450.pt \
-/root/xuxiangling/sonic/training_checkpoints/sonic_wpc_train_7gpu_env4096_30000/deploy_policy_model_step_020450
+/root/xuxiangling/sonic/training_checkpoints/sonic_wpc_train_7gpu_env4096_30000/model_step_030000.pt \
+/root/xuxiangling/sonic/training_checkpoints/sonic_wpc_train_7gpu_env4096_30000/deploy_policy_model_step_030000
 
 
 scp -r \
-root@8.140.37.145:/root/xuxiangling/sonic/training_checkpoints/sonic_wpc_train_7gpu_env4096_30000/exported/model_step_020450_{encoder,decoder}.onnx \
+root@8.140.37.145:/root/xuxiangling/sonic/training_checkpoints/sonic_wpc_train_7gpu_env4096_30000/exported/model_step_030000_{encoder,decoder}.onnx \
 ~/Downloads/sonic_onnx/
 
 

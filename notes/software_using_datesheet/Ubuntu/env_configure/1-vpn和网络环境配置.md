@@ -56,6 +56,23 @@ ssh -T git@github.com
 
 ```
 
+配置http
+```bash
+vim .bashrc
+
+# 输入，然后source 
+PORT=7897
+
+export HTTP_PROXY="http://127.0.0.1:$PORT"
+export HTTPS_PROXY="http://127.0.0.1:$PORT"
+export http_proxy="http://127.0.0.1:$PORT"
+export https_proxy="http://127.0.0.1:$PORT"
+
+export NO_PROXY="localhost,127.0.0.1,::1"
+export no_proxy="localhost,127.0.0.1,::1"
+
+
+```
 
 # 必要app
 类似vscode 和 qq 和微信 和 飞书什么的，直接去官网下载
